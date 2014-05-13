@@ -52,11 +52,11 @@ Possible customization
 
 == Frequently Asked Questions ==
 
-= Can I change default texts and colors? =
+= Can I change default texts and colours? =
 
-Yes, you can. The plugin has a settings area where you can change colors, texts and add an affiliate ID if you have one.
+Yes, you can. The plugin has a settings area where you can change colours, texts and add an affiliate ID if you have one.
 
-= What's the affiliation programm and how can I join? =
+= What's the Affiliate Programme and how can I join? =
 
 Joining the Booking.com Affiliate Program you could earn commissions on any reservation made through the Search Box created by this plugin.
 Please check this [page](http://www.booking.com/content/affiliates.html)  to read more about it!
