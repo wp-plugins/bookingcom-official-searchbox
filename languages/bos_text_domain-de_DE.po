@@ -1,0 +1,419 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-plugins@booking.com\n"
+"POT-Creation-Date: 2014-05-05 12:46+0100\n"
+"PO-Revision-Date: 2014-05-05 12:46+0100\n"
+"Last-Translator: \n"
+"Language-Team: Strategic Partnership at Booking.com <wp-plugins@booking."
+"com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/bos_core.php:33
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/bos_core.php:126 includes/bos_forms.php:176
+#: includes/bos_searchbox.php:5
+msgid "Need a hotel?"
+msgstr "Brauchen sie ein hotel?"
+
+#: includes/bos_core.php:127
+msgid "check-in date"
+msgstr "Check-in-Datum"
+
+#: includes/bos_core.php:128
+msgid "check-out date"
+msgstr "Check-out-Datum"
+
+#: includes/bos_core.php:129 includes/bos_forms.php:179
+#: includes/bos_searchbox.php:43
+msgid "search"
+msgstr "suche"
+
+#: includes/bos_date_array.php:9 includes/bos_style_and_script.php:50
+msgid "January"
+msgstr "Januar"
+
+#: includes/bos_date_array.php:9 includes/bos_style_and_script.php:51
+msgid "February"
+msgstr "Februar"
+
+#: includes/bos_date_array.php:9 includes/bos_style_and_script.php:52
+msgid "March"
+msgstr "M&auml;rz"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:53
+msgid "April"
+msgstr "April"
+
+#: includes/bos_date_array.php:10 includes/bos_date_array.php:16
+#: includes/bos_style_and_script.php:54
+msgid "May"
+msgstr "Mai"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:55
+msgid "June"
+msgstr "Juni"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:56
+msgid "July"
+msgstr "Juli"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:57
+msgid "August"
+msgstr "August"
+
+#: includes/bos_date_array.php:11 includes/bos_style_and_script.php:58
+msgid "September"
+msgstr "September"
+
+#: includes/bos_date_array.php:11 includes/bos_style_and_script.php:59
+msgid "October"
+msgstr "Oktober"
+
+#: includes/bos_date_array.php:11 includes/bos_style_and_script.php:60
+msgid "November"
+msgstr "November"
+
+#: includes/bos_date_array.php:11 includes/bos_style_and_script.php:61
+msgid "December"
+msgstr "Dezember"
+
+#: includes/bos_date_array.php:15
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/bos_date_array.php:15
+msgid "Feb"
+msgstr "Feb"
+
+#: includes/bos_date_array.php:15
+msgid "Mar"
+msgstr "Mrz"
+
+#: includes/bos_date_array.php:16
+msgid "Apr"
+msgstr "Apr"
+
+#: includes/bos_date_array.php:16
+msgid "Jun"
+msgstr "Jun"
+
+#: includes/bos_date_array.php:16
+msgid "Jul"
+msgstr "Jul"
+
+#: includes/bos_date_array.php:16
+msgid "Aug"
+msgstr "Aug"
+
+#: includes/bos_date_array.php:17
+msgid "Sept"
+msgstr "Sep"
+
+#: includes/bos_date_array.php:17
+msgid "Oct"
+msgstr "Okt"
+
+#: includes/bos_date_array.php:17
+msgid "Nov"
+msgstr "Nov"
+
+#: includes/bos_date_array.php:17
+msgid "Dec"
+msgstr "Dez"
+
+#: includes/bos_date_array.php:20 includes/bos_forms.php:177
+msgid "Check-in date"
+msgstr "Check-in-Datum"
+
+#: includes/bos_date_array.php:21 includes/bos_forms.php:178
+msgid "Check-out date"
+msgstr "Check-out-Datum"
+
+#: includes/bos_date_array.php:37 includes/bos_date_array.php:88
+msgid "Open calendar and pick a date"
+msgstr "Kalendar &ouml;ffnen und Zeitraum ausw&auml;hlen"
+
+#: includes/bos_date_array.php:88
+msgid "Open calandar and pick a date"
+msgstr "Kalendar &ouml;ffnen und Zeitraum ausw&auml;hlen"
+
+#: includes/bos_forms.php:14
+msgid "Your affiliate ID"
+msgstr "Identifikationsnummer"
+
+#: includes/bos_forms.php:14
+msgid ""
+"<strong>Aid</strong> number - affiliate unique identifier number - is "
+"necessary to get commission. If you are not an affiliate yet, please <a href="
+"\"http://www.booking.com/content/affiliates.html\" target=\"_blank\">check "
+"our affiliate programme</a> and get yours. It's easy, it's fast. Start "
+"earning money, <a href=\"https://secure.booking.com/partnerreg.html\" target="
+"\"_blank\">sign up now</a>!"
+msgstr ""
+"<strong>Hilfe</strong> Nummer – Eindeutige Identifikationsnummer – ist "
+"notwendig, um Ihre Provision zu erhalten.  Wenn Sie noch nicht Mitglied "
+"sind , gehen Sie bitte auf <a href=\"http://www.booking.com/content/"
+"affiliates.html\" target=\"_blank\">check our affiliate program</a> und "
+"werden Sie es. Es ist einfach, es ist schnell. Beginnen Sie jetzt , Geld zu "
+"verdienen!"
+
+#: includes/bos_forms.php:15
+msgid "Destination"
+msgstr "Ziel"
+
+#: includes/bos_forms.php:15
+msgid "If you like, you can pre-fill destination field (Ex. Amsterdam)"
+msgstr ""
+"Wenn Sie m&ouml;chten, k&ouml;nenn Sie das Feld f&uuml;r den Bestimmungsort "
+"( z.B. Amsterdam ) vorher ausf&uuml;llen"
+
+#: includes/bos_forms.php:16
+msgid "Width"
+msgstr "Weite"
+
+#: includes/bos_forms.php:16
+msgid ""
+"Do you need a specific width (Ex. 150 means 150px)? If you leave it empty "
+"widget automatically will fit container width"
+msgstr ""
+"Brauchen Sie eine bestimmte Breite  ( z.B. 150 bedeutet 150px )? Wenn Sie "
+"das Feld leer lassen, wird das Widget automatisch die Breite eingeben."
+
+#: includes/bos_forms.php:17
+msgid "Need a calendar?"
+msgstr "Brauchen Sie noch einen Kalender?"
+
+#: includes/bos_forms.php:18
+msgid "Month format"
+msgstr "Monatsformat"
+
+#: includes/bos_forms.php:19
+msgid "Dark or white logo and which dimensions?"
+msgstr "Dunkles oder helles Logo und welche Dimension?"
+
+#: includes/bos_forms.php:20
+msgid "Logo position"
+msgstr "Position des Logo"
+
+#: includes/bos_forms.php:21
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: includes/bos_forms.php:22
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: includes/bos_forms.php:23
+msgid "Button background color"
+msgstr "Hintergrundfarbe der Schalftfl&auml;che "
+
+#: includes/bos_forms.php:24
+msgid "Button border color"
+msgstr "Farbe der Schaltfl&auml;chenumrandung "
+
+#: includes/bos_forms.php:25
+msgid "Button text color"
+msgstr "Textfarbe der Schaltfl&auml;che"
+
+#: includes/bos_forms.php:26
+msgid "Change default title"
+msgstr "Standardtitel &auml;ndern"
+
+#: includes/bos_forms.php:27
+msgid "Change checkin text"
+msgstr "Check-in Text &auml;ndern"
+
+#: includes/bos_forms.php:28
+msgid "Change checkout text"
+msgstr "&Auml;ndern Abreise Text"
+
+#: includes/bos_forms.php:29
+msgid "Change submit text"
+msgstr "&Auml;ndern Button-Text"
+
+#: includes/bos_forms.php:53
+msgid ""
+"If you like you can customise Booking.com searchbox with the settings panel "
+"below, or you can just start using the default one in <strong>Appearance > "
+"Widgets</strong> section now."
+msgstr ""
+"Die Searchbox kann je nach Wunsch mit unten angef&uuml;hrten Einstellungen "
+"individuell angepasst werden. Andernfalls k&ouml;nnen Sie hier "
+"<strong>Design > Widgets</strong> mit der Defaultbox starten."
+
+#: includes/bos_forms.php:61
+msgid "Preview"
+msgstr "Vorschau"
+
+#: includes/bos_forms.php:62
+msgid "Save Changes"
+msgstr "&Auml;nderungen speichern"
+
+#: includes/bos_forms.php:97
+msgid "Main settings"
+msgstr "Einstellungen"
+
+#: includes/bos_forms.php:103
+msgid "Color scheme"
+msgstr "Farbschema"
+
+#: includes/bos_forms.php:109
+msgid "Wordings"
+msgstr "Formulierungen"
+
+#: includes/bos_forms.php:135
+msgid "Enter your main settings here."
+msgstr "Geben Sie hier Ihre Haupteinstellungen ein"
+
+#: includes/bos_forms.php:143
+msgid "Enter your color settings here."
+msgstr "Geben Sie hier Ihre Farbeinstellung ein."
+
+#: includes/bos_forms.php:150
+msgid "Change wordings here."
+msgstr "&auml;ndern Sie hier Formulierungen."
+
+#: includes/bos_forms.php:195
+msgid "long"
+msgstr "lang"
+
+#: includes/bos_forms.php:196
+msgid "short"
+msgstr "kurz"
+
+#: includes/bos_forms.php:221
+msgid "left"
+msgstr "links"
+
+#: includes/bos_forms.php:222
+msgid "center"
+msgstr "zentral"
+
+#: includes/bos_forms.php:223
+msgid "right"
+msgstr "rechts"
+
+#: includes/bos_forms.php:252
+msgid "needs to be an integer"
+msgstr "Soll eine ganze Zahl sein"
+
+#: includes/bos_forms.php:265
+msgid "Incorrect values entered!"
+msgstr "Falsche Werte eingetragen!"
+
+#: includes/bos_searchbox.php:23
+msgid "e.g. city, region, district or specific hotel"
+msgstr "z.B. Stadt, Region, Stadtteil oder bestimmtes Hotel"
+
+#: includes/bos_style_and_script.php:43
+msgid "Sorry, we need at least part of the name to start searching."
+msgstr ""
+"Bitte geben Sie wenigstens einen Teil des Namens an, um die Suche zu "
+"beginnen."
+
+#: includes/bos_style_and_script.php:44
+msgid ""
+"Your check-out date is more than 30 nights after your check-in date. "
+"Bookings can only be made for a maximum period of 30 nights. Please enter "
+"alternative dates and try again."
+msgstr ""
+"Ihr Abreisedatum liegt mehr als 30 N&auml;chte nach Ihrem Anreisedatum. "
+"Reservierungen k&ouml;nnen nur f&uuml;r eine maximale Aufenthaltsdauer von "
+"30 N&auml;chten vorgenommen werden. Bitte geben Sie alternative Daten ein "
+"und versuchen Sie es erneut."
+
+#: includes/bos_style_and_script.php:45
+msgid ""
+"Your check-in date is in the past. Please check your dates and try again."
+msgstr ""
+"Das Anreisedatum liegt in der Vergangenheit. Bitte pr&uuml;fen Sie Ihre "
+"Reisedaten."
+
+#: includes/bos_style_and_script.php:46
+msgid ""
+"Please check your dates, the check-out date appears to be earlier than the "
+"check-in date."
+msgstr ""
+"Bitte &uuml;berpr&uuml;fen Sie Ihre Eingabe. Das Abreisedatum liegt "
+"scheinbar vor dem Anreisedatum."
+
+#: includes/bos_style_and_script.php:47
+msgid "Next month"
+msgstr "N&auml;chster Monat"
+
+#: includes/bos_style_and_script.php:48
+msgid "Prev month"
+msgstr "Vorheriger Monat"
+
+#: includes/bos_style_and_script.php:49
+msgid "Close calendar"
+msgstr "Kalender schlie&szlig;en"
+
+#: includes/bos_style_and_script.php:62
+msgid "Mo"
+msgstr "Mo"
+
+#: includes/bos_style_and_script.php:63
+msgid "Tu"
+msgstr "Di"
+
+#: includes/bos_style_and_script.php:64
+msgid "We"
+msgstr "Mi"
+
+#: includes/bos_style_and_script.php:65
+msgid "Th"
+msgstr "Do"
+
+#: includes/bos_style_and_script.php:66
+msgid "Fr"
+msgstr "Fr"
+
+#: includes/bos_style_and_script.php:67
+msgid "Sa"
+msgstr "Sa"
+
+#: includes/bos_style_and_script.php:68
+msgid "Su"
+msgstr "So"
+
+#: includes/bos_style_and_script.php:69
+msgid "Close"
+msgstr "Schlie&szlig;en"
+
+#~ msgid ""
+#~ "After filling at least <strong>aid number</strong>, you'll be able to use "
+#~ "Booking.com searchbox in <strong>Appearance > Widgets</strong> section."
+#~ msgstr ""
+#~ "Nach Eingabe der <strong> Identifikationsnummer</strong>, werden Sie "
+#~ "fähig sein, das Suchfeld in Booking.com unter<strong> Design > Widgets</"
+#~ "strong> Sektion  zu nutzen."
+
+#~ msgid "yes"
+#~ msgstr "ja"
+
+#~ msgid "no"
+#~ msgstr "nicht"
+
+#~ msgid "Display Booking.com logo"
+#~ msgstr "Anzeige Booking.com Logo"
+
+#~ msgid "recommended"
+#~ msgstr "empfohlen"
+
+#~ msgid "checkin-date"
+#~ msgstr "Check-in-Datum"
+
+#~ msgid "checkout-date"
+#~ msgstr "Check-out-Datum"

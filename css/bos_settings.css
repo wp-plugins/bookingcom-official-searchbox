@@ -1,0 +1,47 @@
+/* Admin settings style */
+
+.bos_logo_dim_box {
+	display: inline-block;
+	margin-right: 0.5em;
+	vertical-align: middle;
+	padding: 0.5em;
+}
+
+#bos_wrap {
+	padding: 0 0 12px 12px;
+}
+
+#bos_preview {	
+	background: transparent;
+	min-width: 160px;
+	position: fixed;	
+}
+
+#bos_preview_title {
+    background: transparent;
+    left: -38px;
+    position: relative;
+    top: 0;
+    z-index: 101;
+    margin-top: 10px;
+}
+
+#bos_left {    
+    float: left;
+    width: 60%;
+}
+
+#bos_right {
+	float: left;
+	margin-left: 5%;
+}
+
+#bos_ajax_loader {
+    text-align: center;
+}
+
+#bos_ajax_loader h1 {
+    font-size: 300%;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
