@@ -13,15 +13,14 @@ The official Booking.com search box is a user-friendly, customisable plugin to a
 
 This plugin creates a search box for Booking.com Affiliate Partners to implement using their affiliate ID.
 
-If you’re not an Affiliate Partner yet, you can still implement the plugin. To get the most out of the plugin and earn commission, you’ll need to sign up for the [Booking.com Affiliate Partner Programme](http://www.booking.com/content/affiliates.html).
+If you’re not an Affiliate Partner yet, **you can still implement the plugin**. To get the most out of the plugin and earn commission, you’ll need to sign up for the [Booking.com Affiliate Partner Programme](http://www.booking.com/content/affiliates.html).
 
 Drag and drop the plugin from the sidebar Widget area to publish it - and you’re done!
 
 You can even customise the colour, text, and size of the search box to fit your website design.
 Check the Features for more details.
 
-Features
------------
+= Features = 
 
 * Easy to use: **No code or Javascript knowledge needed!** We create a standard Search Box ready to be implemented in your site
 * Tailored for you: The Search Box automatically **adapts to your website’s sidebar width**
@@ -30,9 +29,9 @@ Features
 * Support: You can always contact your Strategic Partnership Technical Team for **technical support**
 * Earn more: Join our Booking.com [Booking.com Affiliate Partner Programme](http://www.booking.com/content/affiliates.html)
 
-Possible customization
------------
+= Possible customization =
 
+* Add your aid ( starts with a '3' Ex. 382821 )
 * Adjust the width 
 * Pre-fill the search field with a destination to show filtered search results 
 * Switch on/off the calendar
