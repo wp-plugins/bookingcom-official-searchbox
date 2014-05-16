@@ -29,7 +29,7 @@ Check the Features for more details.
 * Support: You can always contact your Strategic Partnership Technical Team for **technical support**
 * Earn more: Join our Booking.com [Booking.com Affiliate Partner Programme](http://www.booking.com/content/affiliates.html)
 
-= Possible customization =
+= Possible customisation =
 
 * Add your aid ( starts with a '3' Ex. 382821 )
 * Adjust the width 
