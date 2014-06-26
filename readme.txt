@@ -37,6 +37,7 @@ Check the Features for more details.
 * Adjust the width 
 * Pre-fill the search field with a destination to show filtered search results 
 * Switch on/off the calendar
+* Add a flexible-dates feature
 * Change the month format 
 * Customise the Booking.com logo: available in white or blue and three sizes: 150x25 - 200x33 - 300x50 
 * Change the logo position: center, left, right,
@@ -89,6 +90,7 @@ The plugin will work from WP ver 3.0 onwards.
 * Fixed some minors css issues ( Ex. calendar misalignment, button width etc... )
 * Fixed issue on last month not-showing in check-out select
 * Added Portuguese ( brazilian ), Spanish and Indonesian to searchbox widget ( not admin settings )
+* Added a flexible-dates feature
 * Improved preview feature
 * Improved the cleaning process after uninstallation: from this version onwards user settings will be kept into db
 * Versioned Css and Javascript
