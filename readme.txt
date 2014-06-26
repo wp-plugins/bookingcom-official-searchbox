@@ -1,9 +1,9 @@
 === Booking.com Official Search Box ===
 Contributors: SP - Booking.com 
-Tags: search hotels, searchbox, accomodation, search accomodation widget, Booking.com, official accomodation searchbox, Booking.com Official Searchbox Plugin, destinations, travel, holidays, hotels 
+Tags: search hotels, searchbox, accomodation, search accomodation widget, Booking.com, official accomodation searchbox, Booking.com Official Searchbox Plugin, destinations, travel, holidays, hotels, affiliation programme 
 Requires at least: 3.0
-Tested up to: 3.9
-Stable tag: 1.0
+Tested up to: 3.9.1
+Stable tag: 1.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,7 +25,9 @@ Check the Features for more details.
 * Easy to use: **No code or Javascript knowledge needed!** We create a standard Search Box ready to be implemented in your site
 * Tailored for you: The Search Box automatically **adapts to your website’s sidebar width**
 * Try it before hand: You get to **preview the plugin** in your settings before it goes on your website
-* Multi-lingual: Our admin settings and the search box itself are available in English, French, German and Italian
+* Multi-lingual Settings in Dashboard: Our admin settings is available in English, French, German and Italian. 
+* Multi-lingual Searchbox widget: now available in English, French, German , Italian, Portuguese ( brazilian ), Spanish and Indonesian
+* Performances: Css and Javascript loaded just when needed
 * Support: You can always contact your Strategic Partnership Technical Team for **technical support**
 * Earn more: Join our Booking.com [Booking.com Affiliate Partner Programme](http://www.booking.com/content/affiliates.html)
 
@@ -79,9 +81,18 @@ The plugin will work from WP ver 3.0 onwards.
 1. Searchbox widget in the Widget section.
 2. Choose the sidebar which you would like the searchbox to be displayed on ( please choose only one sidebar in order to evoid javascript issues ).
 3. Here we go! Searchbox installed in your site ( in Content sidebar in this case ).  The default searchbox will fit the widget area width.
-4. If you need, you can customise the searchbox for your needs. A preview feature will help you to check the searchbox layout before going live on the website.
+4. If you like, you can customise the searchbox for your needs. A preview feature will help you to check the searchbox layout before going live on the website.
 
 == Changelog ==
+
+= 1.1 =
+* Fixed some minors css issues ( Ex. calendar misalignment, button width etc... )
+* Fixed issue on last month not-showing in check-out select
+* Added Portuguese ( brazilian ), Spanish and Indonesian to searchbox widget ( not admin settings )
+* Improved preview feature
+* Improved the cleaning process after uninstallation: from this version onwards user settings will be kept into db
+* Versioned Css and Javascript
+
 
 = 1.0 =
 * First release - April 2014
