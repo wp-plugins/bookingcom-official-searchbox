@@ -42,7 +42,7 @@
                 </div><!-- .b_submitButton_wrapper-->
                 
                 
-                <?php if ( !empty( $flexible_dates ) ) { ?>                
+                <?php if ( $flexible_dates ) { ?>                
                 <div id="b_flexible_dates">
                     <label class="b-checkbox__container">
                         <input type="checkbox" name="idf" />
