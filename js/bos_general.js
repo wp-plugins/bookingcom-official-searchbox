@@ -4,6 +4,13 @@
 		// Setup a click handler to initiate the Ajax request and handle the response
 		$( '#preview_button' ).click( function() {
 			
+			var ajax_loader = '<div id=\"bos_ajax_loader\"><h1>Loading...</h1>' ;
+				ajax_loader = ajax_loader + '<img src=\"' ;
+				ajax_loader = ajax_loader + objectL10n.images_js_path ;
+				ajax_loader = ajax_loader + '\/ajax-loader.gif"></div>' ;				
+				$( '#bos_preview' ).append( ajax_loader ) ;
+				$( '#flexi_searchbox' ).css( 'opacity','0.5' ) ;
+			
 			var data = {
 																
 				action : 'bos_preview', // The function for handling the request
@@ -28,14 +35,8 @@
 		
 			};
 			
-			$.post( ajaxurl, data , function( response ) {											
+			$.post( ajaxurl, data , function( response ) {			
 				
-				var ajax_loader = '<div id=\"bos_ajax_loader\"><h1>Loading...</h1>' ;
-				ajax_loader = ajax_loader + '<img src=\"' ;
-				ajax_loader = ajax_loader + objectL10n.images_js_path ;
-				ajax_loader = ajax_loader + '\/ajax-loader.gif"></div>' ;				
-				$( '#bos_preview' ).append( ajax_loader ) ;
-				$( '#flexi_searchbox' ).css( 'opacity','0.5' ) ;
 				$( '#bos_preview' ).html( response ) ;
 				$( '#flexi_searchbox' ).css( 'opacity','1' ) ;
 				$( '#bos_ajax_loader' ).empty() ;														
