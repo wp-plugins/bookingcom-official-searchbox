@@ -128,7 +128,7 @@ function bos_create_searchbox( $searchbox_options, $preview ) {
     $destination = !empty( $options[ 'destination' ] ) ? $options[ 'destination' ] : '' ;
     $widget_width = !empty( $options[ 'widget_width' ] ) ? $options[ 'widget_width' ] : '' ;
     $calendar = !empty( $options[ 'calendar' ] ) ? $options[ 'calendar' ] : 0 ;
-    $flexible_dates = !empty( $options[ 'flexible_dates' ] ) ? $options[ 'flexible_dates' ] : 1 ;
+    $flexible_dates = !empty( $options[ 'flexible_dates' ] ) ? $options[ 'flexible_dates' ] : 0 ;
     $month_format = !empty(  $options[ 'month_format' ] ) ? $options[ 'month_format' ] : '' ;
     $logodim = !empty( $options[ 'logodim' ] ) ? $options[ 'logodim' ] : 'blue_150x25' ;
     $logopos = !empty(  $options[ 'logopos' ] ) ? $options[ 'logopos' ] : 'left' ;
