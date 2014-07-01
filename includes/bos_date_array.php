@@ -65,7 +65,7 @@
            
         }
         
-        for( $currentMonth = 1 ; $currentMonth < ( 12 - intval( date( "m", $currentDate) ) ) ; $currentMonth++ ) {
+        for( $currentMonth = 1 ; $currentMonth < ( intval( date( "m", $currentDate) ) ) ; $currentMonth++ ) {
             
             $output .= "<option value='" . $nextYear . "-" . $currentMonth . "'>" . $monthName[ $currentMonth ] ."&nbsp". $nextYear."</option>\n" ;
            
@@ -111,7 +111,7 @@
            
         }
         
-        for( $currentMonth = 1 ; $currentMonth < ( 12 - intval( date( "m", $currentDate) ) ) ; $currentMonth++ ) {
+        for( $currentMonth = 1 ; $currentMonth < ( intval( date( "m", $currentDate) ) ) ; $currentMonth++ ) {
             
             $output .= "<option value='" . $nextYear . "-" . $currentMonth . "'>" . $monthName[ $currentMonth ] ."&nbsp". $nextYear."</option>\n" ;
            

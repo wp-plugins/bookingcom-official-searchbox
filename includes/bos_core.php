@@ -122,25 +122,25 @@ function bos_create_searchbox( $searchbox_options, $preview ) {
     
     $options = $searchbox_options ;
     $preview_mode = $preview ? $preview : false ;
-    $default_options = bos_searchbox_retrieve_all_options() ;// default searchbox options
+        
     
     // Set variables for the searchbox: if none the default values will be used
     $destination = !empty( $options[ 'destination' ] ) ? $options[ 'destination' ] : '' ;
     $widget_width = !empty( $options[ 'widget_width' ] ) ? $options[ 'widget_width' ] : '' ;
-    $calendar = !empty( $options[ 'calendar' ] ) ? $options[ 'calendar' ] : $default_options[ 'calendar' ] ;
-    $flexible_dates = !empty( $options[ 'flexible_dates' ] ) ? $options[ 'flexible_dates' ] : $default_options[ 'flexible_dates' ] ;
-    $month_format = !empty(  $options[ 'month_format' ] ) ? $options[ 'month_format' ] : $default_options[ 'month_format' ] ;
-    $logodim = !empty( $options[ 'logodim' ] ) ? $options[ 'logodim' ] : $default_options[ 'logodim' ] ;
-    $logopos = !empty(  $options[ 'logopos' ] ) ? $options[ 'logopos' ] : $default_options[ 'logopos' ] ;
-    $textcolor = !empty(  $options[ 'textcolor' ] ) ? $options[ 'textcolor' ] : $default_options[ 'textcolor' ] ;
-    $bgcolor = !empty(  $options[ 'bgcolor' ] ) ? $options[ 'bgcolor' ] : $default_options[ 'bgcolor' ] ;
-    $submit_bgcolor = !empty(  $options[ 'submit_bgcolor' ] ) ? $options[ 'submit_bgcolor' ] : $default_options[ 'submit_bgcolor' ] ;   
-    $submit_bordercolor = !empty( $options[ 'submit_bordercolor' ] ) ? $options[ 'submit_bordercolor' ] : $default_options[ 'submit_bordercolor' ] ;
-    $submit_textcolor = !empty( $options[ 'submit_textcolor' ] ) ? $options[ 'submit_textcolor' ] : $default_options[ 'submit_textcolor' ] ;   
+    $calendar = !empty( $options[ 'calendar' ] ) ? $options[ 'calendar' ] : 0 ;
+    $flexible_dates = !empty( $options[ 'flexible_dates' ] ) ? $options[ 'flexible_dates' ] : 0 ;
+    $month_format = !empty(  $options[ 'month_format' ] ) ? $options[ 'month_format' ] : '' ;
+    $logodim = !empty( $options[ 'logodim' ] ) ? $options[ 'logodim' ] : 'blue_150x25' ;
+    $logopos = !empty(  $options[ 'logopos' ] ) ? $options[ 'logopos' ] : 'left' ;
+    $textcolor = !empty(  $options[ 'textcolor' ] ) ? $options[ 'textcolor' ] : '#003580' ;
+    $bgcolor = !empty(  $options[ 'bgcolor' ] ) ? $options[ 'bgcolor' ] : '#FEBA02' ;
+    $submit_bgcolor = !empty(  $options[ 'submit_bgcolor' ] ) ? $options[ 'submit_bgcolor' ] : '#0896FF' ;   
+    $submit_bordercolor = !empty( $options[ 'submit_bordercolor' ] ) ? $options[ 'submit_bordercolor' ] : '#0896FF' ;
+    $submit_textcolor = !empty( $options[ 'submit_textcolor' ] ) ? $options[ 'submit_textcolor' ] : '#FFFFFF' ;   
     $maintitle = !empty( $options[ 'maintitle' ] ) ? $options[ 'maintitle' ] : __( 'Need a hotel?', BOS_TEXT_DOMAIN ) ;
     $checkin = !empty( $options[ 'checkin' ] ) ? $options[ 'checkin' ] : __( 'check-in date', BOS_TEXT_DOMAIN ) ;
     $checkout = !empty( $options[ 'checkout' ] ) ? $options[ 'checkout' ] : __( 'check-out date', BOS_TEXT_DOMAIN ) ;
-    $submit = !empty( $options[ 'submit'] ) ? $options[ 'submit'] : __( 'search', BOS_TEXT_DOMAIN ) ;    
+    $submit = !empty( $options[ 'submit'] ) ? $options[ 'submit'] : __( 'search', BOS_TEXT_DOMAIN ) ;     
     
     // Set the default searchresults page
     $target_page = !empty( $options[ 'target_page'] ) ? $options[ 'target_page'] : 'http://www.booking.com/searchresults.html' ;

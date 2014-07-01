@@ -3,7 +3,7 @@ Contributors: SP - Booking.com
 Tags: search hotels, searchbox, accomodation, search accomodation widget, Booking.com, official accomodation searchbox, Booking.com Official Searchbox Plugin, destinations, travel, holidays, hotels, affiliation programme 
 Requires at least: 3.0
 Tested up to: 3.9.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,6 +37,7 @@ Check the Features for more details.
 * Adjust the width 
 * Pre-fill the search field with a destination to show filtered search results 
 * Switch on/off the calendar
+* Add a flexible-dates feature
 * Change the month format 
 * Customise the Booking.com logo: available in white or blue and three sizes: 150x25 - 200x33 - 300x50 
 * Change the logo position: center, left, right,
@@ -85,14 +86,19 @@ The plugin will work from WP ver 3.0 onwards.
 
 == Changelog ==
 
+= 1.2 =
+* Release July 2014
+* Extends calendar select menu to one year window
+
 = 1.1 =
+* Release June 2014
 * Fixed some minors css issues ( Ex. calendar misalignment, button width etc... )
 * Fixed issue on last month not-showing in check-out select
 * Added Portuguese ( brazilian ), Spanish and Indonesian to searchbox widget ( not admin settings )
+* Added a flexible-dates feature
 * Improved preview feature
 * Improved the cleaning process after uninstallation: from this version onwards user settings will be kept into db
 * Versioned Css and Javascript
-
 
 = 1.0 =
 * First release - April 2014

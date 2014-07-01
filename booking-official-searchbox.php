@@ -3,7 +3,7 @@
      * Plugin Name: Booking.com Official Search Box
      * Plugin URI: http://www.booking.com/general.html?tmpl=docs/partners_affiliate_examples
      * Description: This plugin creates a search box for Booking.com Affiliate Partners to implement using their affiliate ID. If you’re not an Affiliate Partner yet, you can still implement the plugin. To get the most out of the plugin and earn commission, you’ll need to <a href="http://www.booking.com/content/affiliates.html" target="_blank">sign up for the Booking.com Affiliate Partner Programme.</a>
-     * Version: 1.1
+     * Version: 1.2
      * Author: Strategic Partnership Department at Booking.com
      * Author URI: http://www.booking.com/general.html?tmpl=docs/partners_affiliate_examples
      * License: GPLv2
@@ -26,7 +26,7 @@
     
 /*Define constants and paths*/
 define( 'BOS_PLUGIN_NAME' , 'Booking.com Official Search Box' ) ;
-define( 'BOS_PLUGIN_VERSION' , '1.1' ) ; 
+define( 'BOS_PLUGIN_VERSION' , '1.2' ) ; 
 define( 'BOS_PLUGIN_FILE' , plugin_basename( __FILE__ ) ) ;    
 define( 'BOS_PLUGIN_DIR_PATH' , plugin_dir_path( __FILE__ ) ) ;
 define( 'BOS_PLUGIN_DIR_URL' , plugin_dir_url( __FILE__ ) ) ;
