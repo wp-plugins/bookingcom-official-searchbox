@@ -1,0 +1,486 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com searchbox plugin 1.3.2\n"
+"POT-Creation-Date: 2015-01-09 13:29+0100\n"
+"PO-Revision-Date: 2015-01-09 13:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: Strategic Partnership at Booking.com <wp-plugins@booking."
+"com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/bos_core.php:27
+msgid "Settings"
+msgstr "設置"
+
+#: includes/bos_core.php:136 includes/bos_forms.php:256
+#: includes/bos_forms.php:259
+msgid "Search hotels and more..."
+msgstr "搜尋飯店或其他類型住宿"
+
+#: includes/bos_core.php:137 includes/bos_forms.php:24
+#: includes/bos_forms.php:263 includes/bos_forms.php:266
+#: includes/bos_meta_boxes.php:38
+msgid "Destination"
+msgstr "目的地"
+
+#: includes/bos_core.php:138 includes/bos_date_array.php:20
+#: includes/bos_forms.php:270 includes/bos_forms.php:273
+msgid "Check-in date"
+msgstr "入住日期"
+
+#: includes/bos_core.php:139 includes/bos_date_array.php:21
+#: includes/bos_forms.php:277 includes/bos_forms.php:280
+msgid "Check-out date"
+msgstr "退房日期"
+
+#: includes/bos_core.php:140 includes/bos_forms.php:284
+#: includes/bos_forms.php:287
+msgid "Search"
+msgstr "搜尋"
+
+#: includes/bos_date_array.php:9 includes/bos_style_and_script.php:47
+msgid "January"
+msgstr "1 月"
+
+#: includes/bos_date_array.php:9 includes/bos_style_and_script.php:48
+msgid "February"
+msgstr "2 月"
+
+#: includes/bos_date_array.php:9 includes/bos_style_and_script.php:49
+msgid "March"
+msgstr "3 月"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:50
+msgid "April"
+msgstr "4 月"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:51
+msgid "May"
+msgstr "5 月"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:52
+msgid "June"
+msgstr "6 月"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:53
+msgid "July"
+msgstr "7 月"
+
+#: includes/bos_date_array.php:10 includes/bos_style_and_script.php:54
+msgid "August"
+msgstr "8 月"
+
+#: includes/bos_date_array.php:11 includes/bos_style_and_script.php:55
+msgid "September"
+msgstr "9 月"
+
+#: includes/bos_date_array.php:11 includes/bos_style_and_script.php:56
+msgid "October"
+msgstr "10 月"
+
+#: includes/bos_date_array.php:11 includes/bos_style_and_script.php:57
+msgid "November"
+msgstr "11 月"
+
+#: includes/bos_date_array.php:11 includes/bos_style_and_script.php:58
+msgid "December"
+msgstr "12 月"
+
+#: includes/bos_date_array.php:15
+msgid "Jan"
+msgstr "1 月"
+
+#: includes/bos_date_array.php:15
+msgid "Feb"
+msgstr "2 月"
+
+#: includes/bos_date_array.php:15
+msgid "Mar"
+msgstr "3 月"
+
+#: includes/bos_date_array.php:16
+msgid "Apr"
+msgstr "4 月"
+
+#: includes/bos_date_array.php:16
+msgid "May "
+msgstr "5 月"
+
+#: includes/bos_date_array.php:16
+msgid "Jun"
+msgstr "6 月"
+
+#: includes/bos_date_array.php:16
+msgid "Jul"
+msgstr "7 月"
+
+#: includes/bos_date_array.php:16
+msgid "Aug"
+msgstr "8 月"
+
+#: includes/bos_date_array.php:17
+msgid "Sept"
+msgstr "9 月"
+
+#: includes/bos_date_array.php:17
+msgid "Oct"
+msgstr "10 月"
+
+#: includes/bos_date_array.php:17
+msgid "Nov"
+msgstr "11 月"
+
+#: includes/bos_date_array.php:17
+msgid "Dec"
+msgstr "12 月"
+
+#: includes/bos_date_array.php:37 includes/bos_date_array.php:88
+msgid "Open calendar and pick a date"
+msgstr "打開日曆並選擇日期"
+
+#: includes/bos_forms.php:14
+msgid "Your affiliate ID"
+msgstr "您的合作夥伴"
+
+#: includes/bos_forms.php:14
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"http://www.booking."
+"com/content/affiliates.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://secure.booking.com/partnerreg.html\" target=\"_blank"
+"\">sign up now!</a>"
+msgstr ""
+"您的合作夥伴 ID 是一組獨一無二的號碼，方便 Booking.com 追查計算佣金。如果您還"
+"不是我們的合作夥伴，<a href=\"http://www.booking.com/content/affiliates.html"
+"\" target=\"_blank\">請查看我們的合作夥伴方案</a>取得合作夥伴 ID。既簡單又快"
+"速。立即<a href=\"https://secure.booking.com/partnerreg.html\" target="
+"\"_blank\">註冊</a>，馬上賺錢！"
+
+#: includes/bos_forms.php:15
+msgid "Width"
+msgstr "寬度"
+
+#: includes/bos_forms.php:15
+msgid ""
+"Need a specific width (e.g. 150px)? You can customise the width of your "
+"search box easily - just fill in your pixel requirements. If you leave this "
+"field empty, you'll get default settings."
+msgstr ""
+"需要設定特定寬度（例：150 畫素）？只要填入畫素要求，即可輕鬆自訂搜尋方框寬"
+"度。如果您將此欄留白，系統將使用預設值"
+
+#: includes/bos_forms.php:16
+msgid "Need a calendar?"
+msgstr "需要日曆？"
+
+#: includes/bos_forms.php:17
+msgid "Month format"
+msgstr "月份格式"
+
+#: includes/bos_forms.php:18
+msgid "Add a &quot;flexible-date&quot; check box"
+msgstr "新增「彈性日期」勾選框"
+
+#: includes/bos_forms.php:19
+msgid "Select which logo and dimension you prefer"
+msgstr "選擇您屬意的標誌和尺寸"
+
+#: includes/bos_forms.php:20
+msgid "Logo position"
+msgstr "標誌位置"
+
+#: includes/bos_forms.php:22
+msgid "Button position"
+msgstr "按鈕位置"
+
+#: includes/bos_forms.php:24
+msgid ""
+"You can pre-fill this field with a specific destination ( e.g. Amsterdam )"
+msgstr "您可以預先將特定目的地填入此欄位（例：阿姆斯特丹)"
+
+#: includes/bos_forms.php:25 includes/bos_meta_boxes.php:44
+msgid "Destination type"
+msgstr "目的地類型"
+
+#: includes/bos_forms.php:26 includes/bos_meta_boxes.php:56
+msgid "Destination ID ( e.g. -2140479 for Amsterdam )"
+msgstr "目的地 ID（例：阿姆斯特丹為 -2140479)"
+
+#: includes/bos_forms.php:28
+msgid "Background colour"
+msgstr "背景顏色"
+
+#: includes/bos_forms.php:29
+msgid "Text colour"
+msgstr "文字顏色"
+
+#: includes/bos_forms.php:30
+msgid "Button background colour"
+msgstr "按鈕背景顏色"
+
+#: includes/bos_forms.php:31
+msgid "Button border colour"
+msgstr "按鈕邊線顏色"
+
+#: includes/bos_forms.php:32
+msgid "Button text colour"
+msgstr "按鈕文字顏色"
+
+#: includes/bos_forms.php:34
+msgid "Default title ( e.g. Search hotels and more... )"
+msgstr "尋找飯店或其他..."
+
+#: includes/bos_forms.php:35
+msgid "Destination ( e.g. Destination )"
+msgstr "目的地（例：目的地)"
+
+#: includes/bos_forms.php:36
+msgid "Check-in ( e.g. Check-in date )"
+msgstr "入住（例：入住日期）"
+
+#: includes/bos_forms.php:37
+msgid "Check-out ( e.g. Check-out date )"
+msgstr "退房（例：退房日期)"
+
+#: includes/bos_forms.php:38
+msgid "Submit button ( e.g. Search )"
+msgstr "送出按鈕（例：搜尋)"
+
+#: includes/bos_forms.php:62
+msgid ""
+"Customise your Booking.com search box below, or use the default search box "
+"by navigating to <strong>Appearance &gt; Widgets</strong> now."
+msgstr ""
+"在下方自訂您的 Booking.com 搜尋方框，或立即導覽至<strong>外觀 > 小工具</"
+"strong>使用預設搜尋方框。"
+
+#: includes/bos_forms.php:73
+msgid "Preview"
+msgstr "預覽"
+
+#: includes/bos_forms.php:74
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: includes/bos_forms.php:75
+msgid "Reset to default"
+msgstr "回復原始預設值"
+
+#: includes/bos_forms.php:110
+msgid "Main settings"
+msgstr "主要設定"
+
+#: includes/bos_forms.php:116
+msgid "Preset destination"
+msgstr "預設目的地"
+
+#: includes/bos_forms.php:122
+msgid "Colour scheme"
+msgstr "顏色組合"
+
+#: includes/bos_forms.php:128
+msgid "Search box text"
+msgstr "搜尋方框文字"
+
+#: includes/bos_forms.php:154
+msgid "Use these settings to customise your search box."
+msgstr "使用這些設定值來自訂您的搜尋方框。"
+
+#: includes/bos_forms.php:161
+msgid ""
+"Use the following fields to select a specific destination. <em>Destination "
+"types</em> and <em>IDs</em> make guest searches more accurate."
+msgstr ""
+" 請於下方欄位選擇特定目的地。目的地種類及 ID 可讓顧客的搜尋結果更加準確。 "
+
+#: includes/bos_forms.php:168
+msgid "Enter your colour scheme settings here."
+msgstr "在此輸入您的顏色組合設定。"
+
+#: includes/bos_forms.php:175
+msgid "Customise the search box text here."
+msgstr "於此自訂搜尋方框文字。"
+
+#: includes/bos_forms.php:207
+msgid "e.g."
+msgstr "例："
+
+#: includes/bos_forms.php:212 includes/bos_meta_boxes.php:33
+msgid "e.g. Amsterdam"
+msgstr "例：阿姆斯特丹"
+
+#: includes/bos_forms.php:218 includes/bos_meta_boxes.php:55
+msgid "e.g. -2140479 for Amsterdam"
+msgstr "例：阿姆斯特丹為 -2140479"
+
+#: includes/bos_forms.php:297 includes/bos_meta_boxes.php:60
+msgid ""
+"For more info on your destination ID, login to the <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check <em>&quot;"
+"URL constructor&quot;</em> section to find your destination ID. These IDs, "
+"also known as UFIs, are usually a negative number ( e.g. <strong>-2140479 is "
+"for Amsterdam</strong> , but can be positive ones in the US ) while regions, "
+"district and landmarks are always positive ( e.g. <strong>725 is for Ibiza</"
+"strong> )."
+msgstr ""
+"更多關於目的地 ID 的資訊，<a href=\"https://admin.booking.com/partner/\" "
+"target=\"_blank\">請登入策略合作夥伴中心</a>了解詳情。 您可至「URL 建構子」欄"
+"位查詢您的目的地 ID。此 ID 亦稱作實體特徵識別（UFI），通常為一組負數號碼"
+"（例：<strong>阿姆斯特丹為 -2140479</strong>，但美國目的地 ID 可能為正數），"
+"然地區、行政區及地標等皆為正數（例：<strong>伊維薩島為 725</strong>）。 "
+
+#: includes/bos_forms.php:332
+msgid "long"
+msgstr "長"
+
+#: includes/bos_forms.php:333
+msgid "short"
+msgstr "短"
+
+#: includes/bos_forms.php:362 includes/bos_forms.php:388
+msgid "Left"
+msgstr "左"
+
+#: includes/bos_forms.php:363 includes/bos_forms.php:389
+msgid "Centre"
+msgstr "中"
+
+#: includes/bos_forms.php:364 includes/bos_forms.php:390
+msgid "Right"
+msgstr "右"
+
+#: includes/bos_forms.php:398 includes/bos_meta_boxes.php:46
+msgid "select..."
+msgstr "請選擇…"
+
+#: includes/bos_forms.php:399 includes/bos_meta_boxes.php:47
+msgid "city"
+msgstr "城市"
+
+#: includes/bos_forms.php:400 includes/bos_meta_boxes.php:48
+msgid "landmark"
+msgstr "地標"
+
+#: includes/bos_forms.php:401 includes/bos_meta_boxes.php:49
+msgid "district"
+msgstr "區"
+
+#: includes/bos_forms.php:402 includes/bos_meta_boxes.php:50
+msgid "region"
+msgstr "地區"
+
+#: includes/bos_forms.php:432
+msgid "needs to be an integer"
+msgstr "需要是一個整數"
+
+#: includes/bos_forms.php:445
+msgid "Missing or incorrect information"
+msgstr "丟失或不正確信息"
+
+#: includes/bos_meta_boxes.php:17
+msgid "Booking.com search box destination"
+msgstr "Booking.com 搜尋框的目的地"
+
+#: includes/bos_meta_boxes.php:31
+msgid ""
+"Use the following fields to select a location for your Booking.com search "
+"box widget for this specific post or page"
+msgstr "請使用下方表格，針對此貼文/頁面設定 Booking.com 搜尋方框的特定目的地"
+
+#: includes/bos_searchbox.php:56 includes/bos_searchbox.php:57
+#: includes/bos_searchbox.php:77 includes/bos_searchbox.php:78
+msgid "Click the lock icon to choose another destination"
+msgstr "按下鎖頭圖示即可選擇其他目的地"
+
+#: includes/bos_searchbox.php:93 includes/bos_style_and_script.php:68
+msgid "e.g. city, region, district or specific hotel"
+msgstr "例如：城市、地區、區或特定飯店名稱"
+
+#: includes/bos_searchbox.php:124
+msgid " I don't have specific dates yet "
+msgstr "我還沒有確定具體的日期。"
+
+#: includes/bos_style_and_script.php:40
+msgid "Sorry, we need at least part of the name to start searching."
+msgstr "抱歉，我們至少需要名字的一部分才可以開始搜尋。"
+
+#: includes/bos_style_and_script.php:41
+msgid ""
+"Your check-out date is more than 30 nights after your check-in date. "
+"Bookings can only be made for a maximum period of 30 nights. Please enter "
+"alternative dates and try again."
+msgstr ""
+"您的退房日期和入住日期之間超過了30天，您最多只能預訂30天。請重新選擇日期。"
+
+#: includes/bos_style_and_script.php:42
+msgid ""
+"Your check-in date is in the past. Please check your dates and try again."
+msgstr "您的入住日期已過。請檢查您的日期然後重新嘗試。"
+
+#: includes/bos_style_and_script.php:43
+msgid ""
+"Please check your dates, the check-out date appears to be earlier than the "
+"check-in date."
+msgstr "請核查您輸入的日期，目前的離店日期要早於登記入住的日期。"
+
+#: includes/bos_style_and_script.php:44
+msgid "Next month"
+msgstr "下個月"
+
+#: includes/bos_style_and_script.php:45
+msgid "Prev month"
+msgstr "上個月"
+
+#: includes/bos_style_and_script.php:46
+msgid "Close calendar"
+msgstr "關閉日曆 "
+
+#: includes/bos_style_and_script.php:59
+msgid "Mo"
+msgstr "週一"
+
+#: includes/bos_style_and_script.php:60
+msgid "Tu"
+msgstr "週二"
+
+#: includes/bos_style_and_script.php:61
+msgid "We"
+msgstr "週三"
+
+#: includes/bos_style_and_script.php:62
+msgid "Th"
+msgstr "週四"
+
+#: includes/bos_style_and_script.php:63
+msgid "Fr"
+msgstr "週五"
+
+#: includes/bos_style_and_script.php:64
+msgid "Sa"
+msgstr "週六"
+
+#: includes/bos_style_and_script.php:65
+msgid "Su"
+msgstr "週日"
+
+#: includes/bos_style_and_script.php:66
+msgid "Updating..."
+msgstr "正在更新請稍候"
+
+#: includes/bos_style_and_script.php:67
+msgid "Close"
+msgstr "關閉"
+
+#: includes/bos_widget.php:21
+msgid "Display an accomodation search box"
+msgstr "顯示住宿搜尋框"

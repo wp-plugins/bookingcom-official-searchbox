@@ -1,0 +1,86 @@
+<?php 
+
+/**
+ * META BOXES
+ * ----------------------------------------------------------------------------
+ */
+
+
+
+/* Add a destination metabox to pages */
+add_action( 'add_meta_boxes' , 'bos_mb_add' ) ;
+
+function bos_mb_add() {
+    
+    $post_types = array ( 'post', 'page' ) ;
+    foreach( $post_types as $post_type ) {    
+        add_meta_box( 'bos_dest', __( 'Booking.com search box destination', BOS_TEXT_DOMAIN ) , 'bos_mb_create', $post_type, 'normal', 'high' ) ;
+    } 
+       
+}
+
+function bos_mb_create( $post ) {
+    
+    $bos_mb_info_icon = '<a href="#" id="bos_mb_info_displayer" title="Info box"><img  style="border: none;" src="' . BOS_IMG_PLUGIN_DIR . '/bos_info_icon.png" alt="info"></a>' ;
+    
+    $output = '' ;    
+    $bos_mb_destination = get_post_meta ( $post->ID, '_bos_mb_destination', true ) ;// underscore close to the variable make not displaying value in the default custom field
+    $bos_mb_dest_type = get_post_meta ( $post->ID, '_bos_mb_dest_type', true ) ;
+    $bos_mb_dest_id = get_post_meta ( $post->ID, '_bos_mb_dest_id', true ) ;    
+           
+    $output .= __( 'Use the following fields to select a location for your Booking.com search box widget for this specific post or page', BOS_TEXT_DOMAIN ) ;
+    $bos_mb_dest_placeholder = '' ;
+    if( empty( $bos_mb_destination ) || $bos_mb_destination  == ' ' || $bos_mb_destination  == '' ) { $bos_mb_dest_placeholder = ' placeholder="' . __( 'e.g. Amsterdam' , BOS_TEXT_DOMAIN ) . '" '; }
+    
+    $bos_mb_label_style = 'style="font-weight: bold;margin-right: 5px; display: inline-block;"' ;
+        
+    // Destination   
+    $output .= '<p class="bos_mb_p"><label for="bos_mb_destination" ' . $bos_mb_label_style . '>' . __( 'Destination', BOS_TEXT_DOMAIN ) . '</label>' ;     
+    $output .= '&nbsp;<input style="width: 350px;" class="bos_mb_field bos_mb_text" type="text" name="bos_mb_destination" value="'. esc_attr( trim( $bos_mb_destination ) ) . '" ' . $bos_mb_dest_placeholder .  '>' ;
+    $output .= '</p>' ;
+    
+    //$output .= __( 'Following parameter will make user research more accurate', BOS_TEXT_DOMAIN ) ;
+    // Destination type
+    $output .= '<p class="bos_mb_p"><label for="bos_mb_dest_type" ' . $bos_mb_label_style . '>' . __( 'Destination type', BOS_TEXT_DOMAIN ) . '</label>';     
+    $output .= '&nbsp;<select class="bos_mb_field bos_mb_select" name="bos_mb_dest_type" >' ;
+    $output .= '<option value="select" ' . selected( 'select', $bos_mb_dest_type, false ) . ' >' . __( 'select...' , BOS_TEXT_DOMAIN) . '</option>' ;
+    $output .= '<option value="city" ' . selected( 'city', $bos_mb_dest_type, false ) . ' >' . __( 'city' , BOS_TEXT_DOMAIN) . '</option>' ;
+    $output .= '<option value="landmark" ' . selected( 'landmark', $bos_mb_dest_type, false ) . ' >' . __( 'landmark' , BOS_TEXT_DOMAIN) . '</option>' ;
+    $output .= '<option value="district" ' . selected( 'district', $bos_mb_dest_type, false ) . ' >' . __( 'district' , BOS_TEXT_DOMAIN) . '</option>' ;
+    $output .= '<option value="region" ' . selected( 'region', $bos_mb_dest_type, false ) . ' >' . __( 'region' , BOS_TEXT_DOMAIN) . '</option>' ;
+    $output .= '</select>' ;
+    $output .= '</p>' ;    
+    // Destination id
+    $bos_mb_dest_id_placeholder = '' ;
+    if( empty( $bos_mb_dest_id ) || $bos_mb_dest_id  == ' ' || $bos_mb_dest_id  == '' ) { $bos_mb_dest_id_placeholder = ' placeholder="' . __( 'e.g. -2140479 for Amsterdam' , BOS_TEXT_DOMAIN ) . '" '; }
+    $output .= '<p class="bos_mb_p"><label for="bos_mb_dest_id" ' . $bos_mb_label_style . '">' . __( 'Destination ID ( e.g. -2140479 for Amsterdam )', BOS_TEXT_DOMAIN ) . '</label>' ;     
+    $output .= '&nbsp;<input  style="width: 200px;"  class="bos_mb_field bos_mb_text" type="text" name="bos_mb_dest_id" value="'. esc_attr( trim( $bos_mb_dest_id ) ) . '" ' . $bos_mb_dest_id_placeholder .  '>&nbsp;' . $bos_mb_info_icon ;
+    $output .= '</p>' ;    
+    $output .= '<div id="bos_mb_info_box" style="display: none;padding: 0 0.6em; background-color:#FFFFE0;border:1px solid  #E6DB55; margin:10px 0 10px;">' ;
+    $output .= __( 'For more info on your destination ID, login to the <a href="https://admin.booking.com/partner/" target="_blank">Partner Center</a>. Check <em>&quot;URL constructor&quot;</em> section to find your destination ID. These IDs, also known as UFIs, are usually a negative number ( e.g. <strong>-2140479 is for Amsterdam</strong> , but can be positive ones in the US ) while regions, district and landmarks are always positive ( e.g. <strong>725 is for Ibiza</strong> ).' , BOS_TEXT_DOMAIN) ;
+    $output .= '</div>' ;
+
+    $output .= '<script>(function($) { $(function(){' ;
+    $output .= '$(document).ready(function(){ $( "#bos_mb_info_displayer" ).click(function( event ) { event.preventDefault(); $( "#bos_mb_info_box" ).toggle(); }); });' ;
+    $output .= '});})(jQuery);</script>' ;
+    
+    
+    echo $output ;
+    
+}
+
+// Save meta box values
+add_action( 'save_post', 'bos_mb_save_data' ) ;
+function bos_mb_save_data( $post_id ) {
+ 
+    if ( isset( $_POST[ 'bos_mb_destination' ] ) ) { // update meta box values if destintion exists
+        
+        update_post_meta( $post_id, '_bos_mb_destination', strip_tags( $_POST[ 'bos_mb_destination' ] ) ) ;
+        update_post_meta( $post_id, '_bos_mb_dest_type', strip_tags( $_POST[ 'bos_mb_dest_type' ] ) ) ;
+        update_post_meta( $post_id, '_bos_mb_dest_id', strip_tags( $_POST[ 'bos_mb_dest_id' ] ) ) ;
+         
+    }
+    
+}
+
+?>
