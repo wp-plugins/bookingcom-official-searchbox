@@ -10,7 +10,7 @@
      */
      
      
-     /*  Copyright 2014  Strategic Partnership Department at Booking.com  ( email : wp-plugins@booking.com )
+     /*  Copyright 2015  Strategic Partnership Department at Booking.com  ( email : wp-plugins@booking.com )
         This program is free software; you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
         the Free Software Foundation; either version 2 of the License, or
