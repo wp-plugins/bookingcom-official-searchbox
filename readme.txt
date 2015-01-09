@@ -26,7 +26,7 @@ Check the Features for more details.
 * Tailored for you: The Search Box automatically **adapts to your website’s sidebar width**
 * Choose specific destination each post and pages using the Meta Boxes.
 * Try it before hand: You get to **preview the plugin** in your settings before it goes on your website
-* Multi-lingual Searchbox and Dashboard settings: now available in English, French, German , Italian, Portuguese ( brazilian ), Spanish, Indonesian and Russian
+* Multi-lingual Searchbox and Dashboard settings: now available in English, French, German , Italian, Portuguese ( brazilian ), Spanish, Indonesian, Russian, Chinese ( traditional and simplified ) and Dutch
 * Performances: Css and Javascript loaded just when needed
 * Support: You can always contact your Strategic Partnership Technical Team for **technical support**
 * Earn more: Join our Booking.com [Booking.com Affiliate Partner Programme](http://www.booking.com/content/affiliates.html)
@@ -95,6 +95,14 @@ The plugin will work from WP ver 3.0 onwards.
 5. Meta Boxes in post/page sections.
 
 == Changelog ==
+
+= 1.3.2 =
+* Release January 2015
+* Added Chinese ( traditional and simplified ) and Dutch
+* Fix february copy issue for French translation ( only short format )
+* Removed protocol select in settings ( now taken automatically ) 
+* Added submit position select ( left, right or centre )
+* Minor css fixes
 
 = 1.3.1 =
 * Release October 2014
