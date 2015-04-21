@@ -26,7 +26,7 @@ Check the Features for more details.
 * Tailored for you: The Search Box automatically **adapts to your website’s sidebar width**
 * Choose specific destination each post and pages using the Meta Boxes.
 * Try it before hand: You get to **preview the plugin** in your settings before it goes on your website
-* Multi-lingual Searchbox and Dashboard settings: now available in English, French, German , Italian, Portuguese ( brazilian ), Spanish, Indonesian, Russian, Chinese ( traditional and simplified ) and Dutch
+* Multi-lingual Searchbox and Dashboard settings: now available in English, French, German , Italian, Portuguese ( brazilian ), Spanish, Indonesian, Russian, Chinese ( traditional and simplified ), Dutch and Polish
 * Performances: Css and Javascript loaded just when needed
 * Support: You can always contact your Strategic Partnership Technical Team for **technical support**
 * Earn more: Join our [Booking.com Affiliate Partner Programme](http://www.booking.com/content/affiliates.html)
